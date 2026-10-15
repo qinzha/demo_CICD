@@ -1,4 +1,5 @@
-FROM openjdk:8-jre-alpine
+#FROM openjdk:8-jre-alpine
+FROM alpine/java:22-jdk
 
 EXPOSE 8080
 
